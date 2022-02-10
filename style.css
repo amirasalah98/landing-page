@@ -1,14 +1,62 @@
+*{
+    font-family: 'Spartan', sans-serif;
+}
 .container{
     width: 1300px; 
     margin: auto;
     display: flex;
     justify-content: space-between;
+    /* margin-bottom: 50px; */
 }
+header{
+    padding-bottom: 70px;
+}
+.features{
+    width: 550px;
+    padding-top: 100px;
+}
+.header-right{
+    width: 40%;
+    align-self: center;
+    justify-self: flex-start;
+}
+.header-right a{
+    padding: 20px;
+    text-decoration: none;
+    
+}
+a{
+    color: black;
+}
+ a:hover{
+color: hsl(0, 94%, 66%);
+}
+.nav-login:hover{
+    height: 20px;
+    border: solid 2px hsl(0, 94%, 66%);
+    border-radius: 5px;
+}
+.features-btns{
+   width: 550px;
+    padding: 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.171);
+}
+.features-btns a{
+    width:100%;
+    padding: 12px;
 
+}
+.features-btns a:hover {
+    border-bottom: 3px solid hsl(0, 94%, 66%);
+
+}
+aside{
+    margin-top: 100px;
+}
 .text-centered{
     text-align: center;
     margin: auto;
-    width: 450px;
+    width: 550px;
     text-justify:auto;
 }
 .frequently-asked-ques{
@@ -21,19 +69,25 @@
     justify-content: center;
 }
 .chrome, .firefox, .opera{
-    border: 1px solid grey;
+    border: 1px solid white;
+    border-radius: 10px;
     padding: 15px;
     text-align: center;
     margin-right: 20px;
+    /* box-shadow: hsl(231, 69%, 60%) 0px 8px 24px; */
+    /* box-shadow: hsl(231, 69%, 60%) 0px 1px 0px, hsl(231, 69%, 60%) 0px 0px 8px; */
+    box-shadow: hsla(231, 69%, 60%, 0.151) 0px 4px 6px -1px, hsla(231, 69%, 60%, 0.151) 0px 2px 4px -1px;
 }
 .chrome{
-    align-self: flex-start;
+    align-self: flex-end;
+    /* padding-bottom: 70px; */
 }
 .firefox{
     align-self: center;
 }
 .opera{
-    align-self: flex-end;
+    align-self: flex-start;
+    
 }
 .more-info-btn-centered{
     display: inline-block;
@@ -58,8 +112,56 @@ a{
     text-decoration: none;
 }
 
- 
+ .blue-btns{
+     cursor: pointer;
+     padding: 8px;
+     border-radius: 5px;
+     background-color: hsl(231, 69%, 60%);
+     border: 1px solid hsl(231, 69%, 60%);
+     color: white;
+ }
+ .blue-btns:hover{
+    border:2px solid hsl(231, 69%, 60%) ;
+    color: hsl(231, 69%, 60%);
+    background-color: white;
+ }
+ .sec1-left{
+     width: 30%;
+     /* align-self: center; */
+ }
+  .sec1-btn-chrome:hover{
+      cursor: pointer;
+      padding: 10px;
+      border:2px solid hsl(231, 69%, 60%) ;
+      color: hsl(231, 69%, 60%);
+      background-color: white;
+      border-radius: 5px;
+ }
+ .sec1-btn-firefox:hover{
+     cursor: pointer;
+    padding: 10px;
+    border:2px solid hsl(229, 31%, 21%) ;
+    color: hsl(229, 31%, 21%);
+    background-color: white;
+    border-radius: 5px;
+ }
+ .sec1-btn-chrome{
+    padding: 8px;
+    border-radius: 5px;
+    background-color: hsl(231, 69%, 60%);
+    border: 1px solid hsl(231, 69%, 60%);
+    color: white;
+}
+ .sec1-btn-firefox{
+    padding: 8px;
+    border-radius: 5px;
+    background-color: hsla(229, 8%, 60%, 0.11);
+    border: 1px solid hsl(229, 8%, 60%);
+    color: hsl(229, 31%, 21%);
+    box-shadow: hsla(180, 31%, 21%, 0.123) 0px 8px 24px;
 
+}
+ 
 .hero{
     position: relative;
     width: 570px;
@@ -78,19 +180,89 @@ a{
     border-radius: 0px 0px 0px 180px;
 }
 .features-img{
+
     position: relative;
     width:536px;
     height:346px;
+    padding-top: 40px;
     z-index: 1;
     /* box-shadow:rgb(212, 61, 137) 60px 60px ;
     border-radius: 0% 0% 30% 0%; */
 }
+.features-left{
+    padding-top: 120px;
+    width: 45%;
+}
 .create-border2{
+    /* padding-top: 70px; */
     width:536px;
     height:346px;
     position: absolute;
-    top:80px;
+    top:163px;
     right: 100px;
     background-color: hsl(231, 69%, 60%);
     border-radius: 0px 0px 150px 0px;
+}
+
+.display{
+    display: none;
+    margin-top: 70px;
+}
+.first-footer{
+    color: white;
+    margin-top: 70px;
+    height: 250px;
+    width: 100%;
+    background-color:hsl(231, 69%, 60%) ;
+    
+}
+.first-footer #contactUs{
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: hsl(0, 94%, 66%);
+    border: 1px solid hsl(0, 94%, 66%);
+    color: white;
+}
+.first-footer #contactUs:hover{
+    background-color: white;
+    border: 2px solid hsl(0, 94%, 66%);
+    color: hsl(0, 94%, 66%);
+}
+.first-footer input{
+    height: 30px;
+}
+.first-footer #input{
+    border: 1px solid white;
+    height: 25px;
+    border-radius: 3px;
+}
+.first-footer #input:hover{
+    border:2px solid hsl(0, 94%, 66%);
+}
+.first-footer div{
+    text-align: center;
+    padding: 35px;
+}
+.second-footer{
+    color: aliceblue;
+    background-color: hsl(229, 31%, 21%);
+    height: 60px;
+}
+.footer-middle-flex{
+    width: 70%;
+    justify-content: flex-start;
+    align-self: center;
+}
+.footer-middle-flex a{
+    color: aliceblue;
+    padding: 20px;
+}
+.footer-middle-flex a:hover{
+    color: hsl(0, 94%, 66%);
+}
+.frequently-asked{
+    margin-top: 70px;
+}
+.download-the-extention{
+    margin-top: 150px;
 }
