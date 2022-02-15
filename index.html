@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
   
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,6 +13,7 @@
 
 </head>
 <body>
+    <div class="all">
     <header class="container">
         <h3>BOOKMARK</h3>
         <div class="header-right">
@@ -21,17 +22,39 @@
             <a href="#">CONTACT</a>
             <a href="#" class="nav-login">LOGIN</a>
         </div>
+
+         <div id="myNav" class="overlay">
+            <a href="javascript://" class="nav-icon closebtn" onclick="closeNav()">&times;</a>
+        <div class="display-nav ">
+                <h3>BOOKMARK</h3>
+        
+            <a href="#">FEATURES</a>
+            <a href="#">PRICING</a>
+            <a href="#">CONTACT</a>
+            <a href="#" class="nav-login">LOGIN</a>
+        
+            </div>
+        </div> 
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
     </header>
-    <section class="container">
+
+    <section class="container sec1-all">
         <div class="sec1-left">
             <h1>A Simple BookMark Manager</h1>
             <p>A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
             <button class="sec1-btn-chrome">Get it on Chrome</button>
             <button class="sec1-btn-firefox">Get it on Firefox</button>
         </div>
-        <div class="hero"><img src="images/Capture.PNG" alt="" class="hero">
+        
+            <div class="hero imgAndBorder">
+            <img src="images/Capture.PNG" alt="" class="img-size">
             <div class="create-border"></div>
+        
         </div>
+        <!-- <div class="test-all">
+            <img src="images/Capture.PNG" alt="" class="img-test">
+            <div class="border-"></div>
+        </div> -->
         
     </section>
     <section class="text-centered features">
@@ -44,11 +67,11 @@
         </div>
     </section>
     <aside class="container mybookmark display" >
-        <div class="features-img">
+        <div class="features-all">
             <img src="images/illustration-features-tab-1.svg" alt="" class="features-img">
             <div class="create-border2"></div>
-
         </div>
+        
         <div class="features-left">
             <h2>Bookmark in one click</h2>
             <p>Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
@@ -58,11 +81,11 @@
 
     </aside>
     <aside class="container mysearch display" >
-        <div class="features-img">
+        <div class="features-all">
             <img src="images/illustration-features-tab-2.svg" alt="" class="features-img">
             <div class="create-border2"></div>
-
         </div>
+        
         <div class="features-left">
             <h2>Intelligent search</h2>
             <p>Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.</p>
@@ -72,11 +95,11 @@
 
     </aside>
     <aside class="container myshare display" >
-        <div class="features-img">
+        <div class="features-all">
             <img src="images/illustration-features-tab-3.svg" alt="" class="features-img">
             <div class="create-border2"></div>
-
         </div>
+        
         <div class="features-left">
             <h2>Share your bookmarks</h2>
             <p>Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.</p>
@@ -160,6 +183,6 @@
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/script.js"></script>
 
-
+</div>
 </body>
 </html>

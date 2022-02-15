@@ -29,4 +29,19 @@ $('a').click(function (event) {
   });
 
 
+// $('.nav-icon').on('click',function(){
+//     console.log('true')
+// $('.display-nav').addClass('style-nav')
+// $('.nav-icon').hide()
+// })
 
+/* Open */
+function openNav() {
+    console.log(true)
+    document.getElementById("myNav").style.display = "block";
+  }
+  
+  /* Close */
+  function closeNav() {
+    document.getElementById("myNav").style.display = "none";
+  }
