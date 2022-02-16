@@ -391,7 +391,7 @@ a{
 @media (max-width:640px){
    
     .container{
-        width:calc(100% - 100px);
+        width:100%;
         flex-wrap: wrap;
         align-items:center ;
     }
