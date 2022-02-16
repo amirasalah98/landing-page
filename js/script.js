@@ -1,7 +1,16 @@
   // $(document).ready(function(){
     $(".show").click(function(){
-        $(this).siblings(".hide").toggle();
+        // $($(this)).replaceWith('<ion-icon ame="chevron-up-outline"></ion-icon>');
+        $(this).siblings(".showAnswer").toggle();
+        // $(this).siblings(".hide").show();
     })
+    $(".hide").click(function(){
+        // $(this).replaceWith('.show')
+
+        $(this).siblings(".showAnswer").toggle();
+        // $(this).siblings(".show").show();
+    })
+
 $('.bookmark').on('click',function(){
     $('.mybookmark').removeClass("display")
     if($('.mysearch'&&'.myshare').not('.display')){

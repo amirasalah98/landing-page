@@ -15,8 +15,8 @@
 </head>
 <body>
     <div class="all">
-    <header class="container">
-        <div class="row">
+    <header >
+        <!-- <div class="row"> -->
         <h3 col-6>BOOKMARK</h3>
         <div class="header-right">
             <a href="#">FEATURES</a>
@@ -24,9 +24,9 @@
             <a href="#">CONTACT</a>
             <a href="#" class="nav-login">LOGIN</a>
         </div>
-    </div>
+    <!-- </div> -->
 
-         <div id="myNav" class="overlay">
+         <!-- <div id="myNav" class="overlay">
             <a href="javascript://" class="nav-icon closebtn" onclick="closeNav()">&times;</a>
         <div class="display-nav ">
                 <h3>BOOKMARK</h3>
@@ -38,7 +38,7 @@
         
             </div>
         </div> 
-        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span> -->
     </header>
 
     <section class="container sec1-all">
@@ -141,20 +141,30 @@
         <h2 style="text-align: center;">Frequently Asked Questions</h2>
         <p style="text-align: center;">If you have any other questions you’d like answered please feel free to email us</p>
         <div class="frequently-asked-ques">
-            <a href="#" class="show">What is Bookmark?</a>
-            <p class="hide"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.</p>
+            <a href="#" >What is Bookmark?</a>
+            <ion-icon class="show show1" name="chevron-down-outline"></ion-icon>
+            <ion-icon class="hide hide1" name="chevron-up-outline"></ion-icon>
+            <p class="showAnswer"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.</p>
         </div>
         <div class="frequently-asked-ques">
-            <a href="#" class="show">How can I request a new browser?</a>
-            <p class="hide">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+            <a href="#" >How can I request a new browser?</a>
+            <ion-icon class="show show2" name="chevron-down-outline"></ion-icon>
+            <ion-icon class="hide hide2" name="chevron-up-outline"></ion-icon>
+
+            <p class="showAnswer">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
         </div>
         <div class="frequently-asked-ques">
-            <a href="#" class="show">Is there a mobile app?</a>
-            <p class="hide">Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed sollicitudin ex et ultricies bibendum.</p>
+            <a href="#" >Is there a mobile app?</a>
+            <ion-icon class="show show3" name="chevron-down-outline"></ion-icon>
+            <ion-icon class="hide hide3" name="chevron-up-outline"></ion-icon>
+
+            <p class="showAnswer">Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed sollicitudin ex et ultricies bibendum.</p>
         </div>
         <div class="frequently-asked-ques">
-            <a href="#" class="show">What about other Chromium browser?</a>
-            <p class="hide">Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam vitae neque eget nisl gravida pellentesque non ut velit.</p>
+            <a href="#" >What about other Chromium browser?</a>
+            <ion-icon class="show show4" name="chevron-down-outline"></ion-icon>
+            <ion-icon class="hide hide4" name="chevron-up-outline"></ion-icon>
+            <p class="showAnswer">Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam vitae neque eget nisl gravida pellentesque non ut velit.</p>
         </div>
         <button class="more-info-btn more-info-btn-centered blue-btns">More Info</button>
     </section>
@@ -169,7 +179,7 @@
         </div>
     </footer>
     <footer class=" second-footer">
-        <div class="container">
+        <div class="container second-footer-flex">
         <h3>BOOKMARK</h3>
         <div class="footer-middle-flex">
         <a href="#">FEATURES</a>
@@ -186,6 +196,8 @@
     
 
 </div>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/script.js"></script>
 </body>
