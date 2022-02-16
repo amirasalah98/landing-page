@@ -39,11 +39,23 @@ a{
  a:hover{
 color: hsl(0, 94%, 66%);
 }
+.features{
+    padding-top: 70px;
+}
 .features-btns{
-    width: 550px;
+    /* width: 550px; */
      padding: 12px;
      border-bottom: 1px solid rgba(0, 0, 0, 0.171);
  }
+ .features-btns a{
+    padding: 12px;
+
+ }
+ .features-btns a:hover {
+    border-bottom: 3px solid hsl(0, 94%, 66%);
+
+}
+
 .nav-login:hover{
     height: 20px;
     border: solid 2px hsl(0, 94%, 66%);
@@ -87,7 +99,7 @@ color: hsl(0, 94%, 66%);
     z-index: -1;
 }
 .create-border{
-    top:200px ;
+    top:250px ;
     right: 170px;
     border-radius: 0px 0px 0px 180px;
 }
@@ -98,6 +110,7 @@ color: hsl(0, 94%, 66%);
 .features-left{
     padding-top: 20px;
     width: 45%;
+    margin-left: 15px;
 }
 .create-border2{
     top:750px;
@@ -324,12 +337,15 @@ a{
     
     }
     .create-border{
-        top: 200px;
+        /* top: 200px; */
         right: 0px;
     }
     .create-border2{
-        top: 650px;
+        /* top: 700px; */
         left: 0px;
+    }
+    .features{
+        padding-top: 50px;
     }
     
 }
@@ -368,19 +384,22 @@ a{
     .create-border,.create-border2{
     width: 0px;
     height: 0px;
-    /* position: absolute;
-    display: inline-block; */
+    position: absolute;
+    /* display: inline-block; */
 
        
     }
-    /* .create-border{
-        top:400px ;
+    .create-border{
+        /* top:400px ; */
         right: 0px;
     }
     .create-border2{
-        top: 800px;
+        /* top: 800px; */
         left: 0px;
-    } */
+    }
+    .features{
+        padding-top: 30px;
+    }
   
 } 
 @media (max-width:640px){
@@ -397,6 +416,12 @@ a{
     .sec1-left{
         width: 100%;
         
+    }
+    .features-left{
+        width: 100%;
+    }
+    .mybookmark, .mysearch, .myshare{
+        margin-top: 20px;
     }
     /* .sec1-all{
         margin-top: 60px;
@@ -516,6 +541,9 @@ form input{
 }
 .second-footer .container{
  flex-direction: column;
+}
+.features{
+    padding-top: 20px;
 }
 
 }
