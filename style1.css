@@ -412,13 +412,13 @@ a{
         margin-top: 20px;
     }
     .img-size,.features-img{
-        width: 400px;
-        height: 280px;
+        width: 300px;
+        height: 180px;
         position: absolute;
     }
     .hero,.features-all{
-        width: 400px;
-        height: 280px;
+        width: 300px;
+        height: 180px;
         margin-bottom: 100px;
     }
     .img-size{
@@ -428,8 +428,8 @@ a{
         left: 50px;
     }
     .create-border,.create-border2{
-        width: 400px;
-        height: 280px;
+        width: 300px;
+        height: 180px;
        position: absolute;
     }
     .create-border{
