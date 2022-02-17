@@ -46,7 +46,6 @@ $('a').click(function (event) {
 
 /* Open */
 function openNav() {
-    console.log(true)
     document.getElementById("myNav").style.display = "block";
   }
   
