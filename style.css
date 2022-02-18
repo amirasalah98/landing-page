@@ -140,7 +140,7 @@ color:hsl(0, 94%, 66%);
     margin-right: 20px;
     box-shadow: hsla(231, 69%, 60%, 0.151) 0px 4px 6px -1px, hsla(231, 69%, 60%, 0.151) 0px 2px 4px -1px;
 }
-.chrome p, .opera p, .firefox p ,.sec1-left p,.features p, .features-left p, .download-the-extention p,.frequently-asked p{
+.chrome p, .opera p, .firefox p ,.sec1-left p,.features p, .features-left p, .download-the-extention p,.frequently-asked p:first-child{
     color: hsl(229, 8%, 60%)
 }
 
@@ -418,12 +418,15 @@ a{
         display: flex;
         flex-wrap: wrap;
         margin-top: 20px;
+        margin: auto;
     }
     .chrome, .firefox, .opera{
         width: 250px;
         border: 1px solid white;
         border-radius: 10px;
         padding: 70px;
+        margin: auto;
+
         box-shadow: hsla(231, 69%, 60%, 0.151) 0px 4px 6px -1px, hsla(231, 69%, 60%, 0.151) 0px 2px 4px -1px;
     }
 .text-centered{
