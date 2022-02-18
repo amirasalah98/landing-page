@@ -138,10 +138,12 @@ color:hsl(0, 94%, 66%);
     padding: 15px;
     text-align: center;
     margin-right: 20px;
-    /* box-shadow: hsl(231, 69%, 60%) 0px 8px 24px; */
-    /* box-shadow: hsl(231, 69%, 60%) 0px 1px 0px, hsl(231, 69%, 60%) 0px 0px 8px; */
     box-shadow: hsla(231, 69%, 60%, 0.151) 0px 4px 6px -1px, hsla(231, 69%, 60%, 0.151) 0px 2px 4px -1px;
 }
+.chrome p, .opera p, .firefox p ,.sec1-left p,.features p, .features-left p, .download-the-extention p,.frequently-asked p{
+    color: hsl(229, 8%, 60%)
+}
+
 .chrome{
     align-self: flex-start;
 }
@@ -401,11 +403,11 @@ a{
        position: absolute;
     }
     .create-border{
-        top:310px ;
+        top:350px ;
         right: 0px;
     }
     .create-border2{
-        top: 1000px;
+        top: 1040px;
         left: 0px; 
     }
     .header-right{
@@ -513,7 +515,7 @@ form{
       margin-top: 50px;
   }
   .container-nav .closebtn{
-    color: #818181;
+    color: hsl(229, 8%, 60%);
     font-size: 40px;
     /* margin-top: 50px; */
 
@@ -531,10 +533,10 @@ form{
     padding: 25px;
     text-decoration: none;
     font-size: 20px;
-    color: #818181;
+    color: hsl(229, 8%, 60%);
     display: block; 
     transition: 0.3s; 
-border-top: 1px solid #818181;  
+border-top: 1px solid hsl(229, 8%, 60%);  
 }
   .overlay a:hover, .overlay a:focus {
     color: #f1f1f1;
@@ -550,6 +552,7 @@ border-top: 1px solid #818181;
   .nav-icon{
       font-size: 50px;
     margin-top: 5px; 
+    cursor: pointer;
  }
 
 
